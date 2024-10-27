@@ -56,7 +56,6 @@ def excluir_leitor():
         print(f"Leitor {nome} não encontrado.")
 
 
-
 while True:
     mostrar_menu()
     opcao = input("\nEscolha uma opção: ")
