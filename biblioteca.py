@@ -22,7 +22,7 @@ def mostrar_menu():
     4      | Adicionar Leitor      |
     5      | Excluir Leitor        |
     0      | Sair                  |""")
-
+#6 = funcionarios 7 = leitores 8 = livros
 
 def adicionar_livro():
     titulo = input("Digite o título do livro: ")
@@ -70,6 +70,12 @@ while True:
         adicionar_leitor()
     elif opcao == "5":
         excluir_leitor()
+    elif opcao == "6":
+        print(funcionarios)
+    elif opcao == "7":
+        print(leitores)
+    elif opcao == "8":
+        print(livros)
     elif opcao == "0":
         print("Saindo do sistema...")
         break
