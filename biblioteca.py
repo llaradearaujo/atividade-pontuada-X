@@ -79,7 +79,7 @@ while True:
         print(leitores)
     elif opcao == "8":
         print(livros)
-            print(livros if livros else "Nenhum livro cadastrado.")
+        print(livros if livros else "Nenhum livro cadastrado.")
     elif opcao == "0":
         print("Saindo do sistema...")
         break
