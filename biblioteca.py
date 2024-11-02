@@ -78,7 +78,7 @@ while True:
     elif opcao == "7":
         print(leitores)
     elif opcao == "8":
-        print(livros)
+        print("\nLIVROS CADASTRADOS:")
         print(livros if livros else "Nenhum livro cadastrado.")
     elif opcao == "0":
         print("Saindo do sistema...")
