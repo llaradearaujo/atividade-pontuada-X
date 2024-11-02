@@ -86,5 +86,12 @@ while True:
         print("Saindo do sistema...")
         break
     else:
+        print("Opção inválida! Tente     
+        
+    elif opcao == "0": 
+        print("Saindo do sistema...")
+        break
+    else:
         print("Opção inválida! Tente novamente.")
 
+    input("\nPressione Enter para continuar...")
