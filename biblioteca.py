@@ -79,9 +79,12 @@ while True:
         print(leitores)
     elif opcao == "8":
         print(livros)
+            print(livros if livros else "Nenhum livro cadastrado.")
     elif opcao == "0":
         print("Saindo do sistema...")
         break
     else:
         print("Opção inválida! Tente novamente.")
+
+    input("\nPressione Enter para continuar...")
 
